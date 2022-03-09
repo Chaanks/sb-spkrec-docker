@@ -11,8 +11,8 @@ import requests
 import urllib.parse
 
 
-IP = "194.57.216.166"
-PORT = "5002"
+IP = "x.x.x.x"
+PORT = "80"
 URL = f"http://{IP}:{PORT}/api/spkrec"
 
 utt_1 = open("server/static/wavs/Abel_Ezechiel.wav", 'rb')
