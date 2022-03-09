@@ -14,8 +14,8 @@ IP = "x.x.x.x"
 PORT = "80"
 URL = f"http://{IP}:{PORT}/api/spkrec"
 
-utt_1 = open("server/static/wavs/Abel_Ezechiel.wav", 'rb')
-utt_2 = open("server/static/wavs/Abi_yao_Vidal.wav", 'rb')
+utt_1 = open("path/to/utt1.wav", 'rb')
+utt_2 = open("path/to/utt2.wav", 'rb')
 data = {"utt_1": utt_1, "utt_2": utt_2}
 
 req = requests.get(URL, files=data)
