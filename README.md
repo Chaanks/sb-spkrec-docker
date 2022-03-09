@@ -4,7 +4,7 @@ To build and run the docker:
 > `sudo docker run -p 80:5002 sb-docker -p 5002`
 
 
-### Speaker recognition
+### Speaker verification
 ```
 import requests
 import urllib.parse
